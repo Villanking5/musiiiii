@@ -35,25 +35,25 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f323bcaec71ba138fb6df.png",
+        photo=f"https://telegra.ph/file/ef449144f68bdacea198b.jpg",
         caption=f"""**A Telegram Music Bot Based Mongodb.
  Add Me To Ur Chat For and Help and And Support Click On Buttons  ...
 💞  These Features A.I Based 
-Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
+Powered By [🇴¤๋ࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧ͜͡ғͥғɪᴄͣɪͫ͢͢͢ꫝʟ✮͢😈🇳 𝗔🇬](t.me/Jaihindupuramking) ...
 **""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        "🍁 ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ 🍁", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/SUPERIOR_BOTS/160"
+                        "🍁ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ🍁", url=f"https://t.me/sampavampullingo/2257"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/ITZ-ZAID/Zaid-Vc-Player"
+                        "🍁OWNER🍁", url="https://t.me/Jaihindupuramking"
                     )
                 ],
                 [
